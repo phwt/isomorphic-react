@@ -11,7 +11,11 @@ describe(`The Question List Component`, () => {
   afterAll(() => {
     console.log("afterAll");
   });
+
   it(`Should display a list of items`, () => {
     expect(1 + 1).toEqual(2);
+  });
+  it.skip(`Should display a list of items again`, () => {
+    expect(1 + 1).toEqual(3);
   });
 });
