@@ -1,4 +1,4 @@
-// import { handleFetchQuestion } from "./fetch-question-saga";
+import { handleFetchQuestion } from "./fetch-question-saga";
 
 describe("Fetch Question Saga", () => {
   it("should fetch the questions", () => {
